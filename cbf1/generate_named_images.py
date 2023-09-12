@@ -85,7 +85,7 @@ name_marker_image_dict = {
     "Early_NK_cells": ("Early\nNK cells", "CD16-CD56++", "NK_color.png"),
     "Effector_NK_cells": ("Effector\nNK cells", "CD16++CD56++", "NK_color.png"),
     "Terminal_NK_cells": ("Terminal\nNK cells", "CD16++CD56-", "NK_color.png"),
-    "Lineage_Negative_cells": ("Lineage Neg.\ncells", "", "lineage_negative.png"),
+    "Lineage_Negative_cells": ("Lineage Neg.\ncells", "CD16-CD56-", "lineage_negative.png"),
     "Lineage_Negative_HSPCs": ("Lineage Neg.\nHSPCs", "CD34+", "HSC_color.png"),
     "CD38+": ("CD38+", "", "HSC.png"),
     "CD90+": ("CD90+", "", "HSC_color.png"),

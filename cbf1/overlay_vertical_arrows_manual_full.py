@@ -1,10 +1,10 @@
 from PIL import Image
 
 # Open the base image (the image you want to overlay on)
-base_image = Image.open("celltypes.png")
+base_image = Image.open("celltypes_vertical.png")
 
 # Open the image you want to overlay
-overlay_image = Image.open("resources/ARROWS.png")
+overlay_image = Image.open("resources/vertical_arrows_manual_full.png")
 
 # Scale and shift the overlay image
 scale_factor = 1  # Adjust this value to control the scaling factor

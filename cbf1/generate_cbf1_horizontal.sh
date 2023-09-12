@@ -4,10 +4,10 @@
 python generate_named_images.py
 
 # Use LaTex to generate the PDF that combines the named images into a single PDF
-pdflatex celltypes.tex
-
-# Use ImageMagick to convert the PDF to a PNG
-convert -density 300 celltypes.pdf[0] celltypes.png
+pdflatex celltypes_horizontal.tex
 
 # Overlay the arrows on top of the image we just created
-python overlay_arrows.py
+pdflatex celltypes_horizontal_add_arrows.tex
+
+# Rename the resulting file to 'F1.pdf'
+mv celltypes_horizontal_add_arrows.pdf F1.pdf
